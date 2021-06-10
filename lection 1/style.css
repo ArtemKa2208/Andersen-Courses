@@ -1,0 +1,86 @@
+body{
+      margin: 0;
+      padding: 0;
+}
+.navigation{
+      height: 150px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+
+}
+.navigation button{
+      margin-top: 50px;
+      margin-left: 40px;
+      border: 0;
+      background-color: white;
+}
+.navigation_button{
+      margin-left: 30px;
+}
+.img_logo{
+      height: 80px;
+      width: 160px;
+      margin-top: 30px;
+      margin-left: 140px;
+}
+.slider{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-left: 60px;
+      margin-right: 60px;
+}
+
+.div_in_slider_first img{
+      height: 470px;
+      width: 100%;
+}
+.div_in_slider_first{
+      background-image: url('img/Rectangle\ 2.png');
+      background-size: 100%;
+      position: relative;
+      min-width: 33%;
+      background-repeat: no-repeat;
+      height: 480px;
+      width: 40px;
+}
+.div_in_slider_second{
+      background-image: url('img/Rectangle\ 2\ \(1\).png');
+      background-size: 100%;
+      position: relative;
+      min-width: 33%;
+      background-repeat: no-repeat;
+      height: 480px;
+      width: 40px;
+}
+.div_in_slider_third{
+      background-image: url('img/Rectangle\ 2\ \(2\).png');
+      background-size: 100%;
+      position: relative;
+      min-width: 33%;
+      background-repeat: no-repeat;
+      height: 480px;
+      width: 40px;
+}
+.div_for_text{
+      position: absolute;
+      bottom: 1px;
+      height: 100px;
+      background-color: orange;
+      opacity: 0.5;
+      border: 0;
+      width: 100%;
+}
+
+.div_for_text_in_div{
+     border: 2px solid white;
+     margin-top: 15px;
+     margin-bottom: 15px;
+     margin-left: 10px;
+     margin-right: 10px;
+}
+.text_in_slider{  
+      text-align: center;
+      color: white;
+}
